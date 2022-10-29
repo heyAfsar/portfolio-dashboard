@@ -5,36 +5,40 @@ class CardTopLogo extends Component {
   state = {};
   render() {
     const cardStyle = {
-      height: 160,
-      marginTop: 10,
+      height: "100%",
+      marginTop: 3,
       display: "flex",
-      justifyContent: "center",
+      // justifyContent: "center",
       flexDirection: "column",
       alignItems: "center",
       clear: "bottom",
     };
     const contentStyle = {
-      height: 140,
-      width: 200,
+      // height: 120,
+      // width: 200,
+      width: "-webkit-fill-available",
+      height: "-webkit-fill-available",
       borderRadius: 20,
       padding: 10,
-      margin: 10,
+      margin: 3,
       backgroundColor: "#e2e2e2",
       fontSize: 23,
       display: "flex",
       justifyContent: "center",
       alignItem: "center",
+      alignItems: "center",
+      textAlign: "center",
     };
     const logoStyle = {
       justifyContent: "center",
-      height: 50,
-      width: 50,
+      height: 60,
+      width: 60,
       alignItem: "center",
       marginBottom: -33,
       zIndex: 2,
     };
     return (
-      <div style={cardStyle}>
+      <div className={this.props.className} style={cardStyle}>
         <img src={reactLogo} style={logoStyle} alt="logo" />
         <div style={contentStyle}>
           <p>

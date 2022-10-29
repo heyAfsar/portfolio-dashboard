@@ -3,12 +3,12 @@ import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOu
 
 export default function Card2(props) {
   const card2Style = {
-    width: 200,
-    height: 300,
+    // width: 200,
+    // height: 300,
     backgroundColor: `${props.color}`,
     borderRadius: 20,
     padding: 10,
-    margin: 10,
+    margin: 3,
     display: "flex",
     flexDirection: "column-reverse",
   };
@@ -21,11 +21,12 @@ export default function Card2(props) {
     marginLeft: 10,
     fontSize: 20,
   };
-  const content = {};
+  let classes = "card ";
+  classes = classes.concat(props.className);
 
   return (
-    <div style={card2Style} className="card">
-      <div className={content}>
+    <div style={card2Style} className={classes}>
+      <div>
         <p style={summary2}>Lorem, ipsum.</p>
         <ArrowCircleRightOutlinedIcon style={button2Style} color="action" />
       </div>

@@ -28,6 +28,8 @@ class CardTopLogo extends Component {
       alignItem: "center",
       alignItems: "center",
       textAlign: "center",
+      color: "black",
+      fontWeight: "bold",
     };
     const logoStyle = {
       justifyContent: "center",

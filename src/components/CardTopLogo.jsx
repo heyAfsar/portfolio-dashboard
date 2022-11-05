@@ -12,6 +12,7 @@ class CardTopLogo extends Component {
       flexDirection: "column",
       alignItems: "center",
       clear: "bottom",
+      transition: "1s",
     };
     const contentStyle = {
       // height: 120,
@@ -28,8 +29,7 @@ class CardTopLogo extends Component {
       alignItem: "center",
       alignItems: "center",
       textAlign: "center",
-      color: "black",
-      fontWeight: "bold",
+      cursor: "pointer",
     };
     const logoStyle = {
       justifyContent: "center",
@@ -38,6 +38,7 @@ class CardTopLogo extends Component {
       alignItem: "center",
       marginBottom: -33,
       zIndex: 2,
+      cursor: "pointer",
     };
     return (
       <div className={this.props.className} style={cardStyle}>

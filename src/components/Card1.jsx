@@ -13,7 +13,7 @@ export default function Card1(props) {
     margin: 3,
     position: "relative",
     cursor: "pointer",
-    transition: "1s",
+    transition: ".5s",
   };
 
   const buttonStyle = {

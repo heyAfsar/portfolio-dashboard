@@ -12,7 +12,7 @@ export default function Card2(props) {
     display: "flex",
     flexDirection: "column-reverse",
     cursor: "pointer",
-    transition: "1s",
+    transition: ".5s",
   };
 
   const button2Style = {

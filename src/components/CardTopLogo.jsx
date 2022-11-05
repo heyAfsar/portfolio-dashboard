@@ -12,7 +12,7 @@ class CardTopLogo extends Component {
       flexDirection: "column",
       alignItems: "center",
       clear: "bottom",
-      transition: ".5s",
+      transition: ".2s",
     };
     const contentStyle = {
       // height: 120,

@@ -13,7 +13,7 @@ export default function CardBgImg(props) {
     margin: 3,
     position: "relative",
     cursor: "pointer",
-    transition: ".5s",
+    transition: ".2s",
   };
 
   const buttonStyle = {

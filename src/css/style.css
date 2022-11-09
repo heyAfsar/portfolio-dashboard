@@ -18,30 +18,10 @@
 .grid-item2{
     color: rgb(255, 255, 255);
 }
-.grid-item1:hover {
+.card:hover {
     transform: scale(1.1);
 }
-.grid-item2:hover{
-    transform: scale(1.1);
-}
-.grid-item3:hover{
-    transform: scale(1.1);
-}
-.grid-item4:hover{
-    transform: scale(1.1);
-}
-.grid-item5:hover{
-    transform: scale(1.1);
-}
-.grid-item6:hover{
-    transform: scale(1.1);
-}
-.grid-item7:hover{
-    transform: scale(1.1);
-}
-.grid-item8:hover{
-    transform: scale(1.1);
-}
+
 
 .grid-item5{
     grid-column-start: 1;

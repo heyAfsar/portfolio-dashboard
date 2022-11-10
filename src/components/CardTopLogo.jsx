@@ -30,6 +30,7 @@ class CardTopLogo extends Component {
       alignItems: "center",
       textAlign: "center",
       cursor: "pointer",
+      zIndex: 2,
     };
     const logoStyle = {
       justifyContent: "center",
@@ -37,7 +38,7 @@ class CardTopLogo extends Component {
       width: 60,
       alignItem: "center",
       marginBottom: -33,
-      zIndex: 2,
+      zIndex: 3,
       cursor: "pointer",
     };
     return (

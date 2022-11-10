@@ -1,4 +1,15 @@
 
+.overlay {
+    width: 1100px;
+    height: 573px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    z-index: 0;
+    margin: 40px 80px 25px 135px;
+    background:gray;
+  }
 .grid-container{
     display: grid;
     gap: .9rem;

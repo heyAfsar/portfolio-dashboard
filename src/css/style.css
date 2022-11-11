@@ -1,4 +1,5 @@
 
+  
 .grid-container{
     display: grid;
     gap: .9rem;
@@ -18,30 +19,20 @@
 .grid-item2{
     color: rgb(255, 255, 255);
 }
-.grid-item1:hover {
-    transform: scale(1.1);
+.grid-container:hover .card {
+    filter: grayscale(20%);
+    
+    
 }
-.grid-item2:hover{
+.grid-container .card:hover{
+    
     transform: scale(1.1);
+    
+    filter: grayscale(0);
+    
+    
 }
-.grid-item3:hover{
-    transform: scale(1.1);
-}
-.grid-item4:hover{
-    transform: scale(1.1);
-}
-.grid-item5:hover{
-    transform: scale(1.1);
-}
-.grid-item6:hover{
-    transform: scale(1.1);
-}
-.grid-item7:hover{
-    transform: scale(1.1);
-}
-.grid-item8:hover{
-    transform: scale(1.1);
-}
+
 
 .grid-item5{
     grid-column-start: 1;

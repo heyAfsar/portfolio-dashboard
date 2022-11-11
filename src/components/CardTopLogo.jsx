@@ -37,7 +37,7 @@ class CardTopLogo extends Component {
       width: 60,
       alignItem: "center",
       marginBottom: -33,
-      zIndex: 2,
+      zIndex: 3,
       cursor: "pointer",
     };
     return (

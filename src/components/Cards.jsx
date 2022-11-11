@@ -15,35 +15,35 @@ class Cards extends Component {
     return (
       <div style={mainContainer}>
         <div style={styles} className="grid-container">
-          <CardTopLogo className="grid-item1" style={styles} />
+          <CardTopLogo className="grid-item1 card" style={styles} />
           <Card1
-            className="grid-item2 grid-row-span2"
+            className="grid-item2 grid-row-span2 card"
             color="#fa5300"
             buttonColor="white"
             height="230px"
           />
           <Card1
-            className="grid-item3 grid-row-span2"
+            className="grid-item3 grid-row-span2 card"
             color="#96cbfd"
             buttonColor="secondary"
             height="230px"
           />
-          <Card1 className="grid-item4" color="#fa0644" height="150px" />
-          <Card2 className="grid-item5" color="#fa0644" />
+          <Card1 className="grid-item4 card" color="#fa0644" height="150px" />
+          <Card2 className="grid-item5 card" color="#fa0644" />
           <Card1
-            className="grid-item6 grid-row-span2"
+            className="grid-item6 grid-row-span2 card"
             color="#ffde59"
             buttonColor="error"
             height="230px"
           />
           <Card1
-            className="grid-item7 grid-row-span2"
+            className="grid-item7 grid-row-span2 card"
             color="#aa02ff"
             buttonColor="white"
             height="230px"
           />
           <CardBgImg
-            className="grid-item8"
+            className="grid-item8 card"
             color="#e04f26"
             buttonColor="black"
           />

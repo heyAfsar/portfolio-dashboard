@@ -30,7 +30,6 @@ class CardTopLogo extends Component {
       alignItems: "center",
       textAlign: "center",
       cursor: "pointer",
-      zIndex: 2,
     };
     const logoStyle = {
       justifyContent: "center",

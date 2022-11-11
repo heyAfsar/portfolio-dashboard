@@ -14,7 +14,6 @@ class Cards extends Component {
     };
     return (
       <div style={mainContainer}>
-        <div className="transparent overlay"></div>
         <div style={styles} className="grid-container">
           <CardTopLogo className="grid-item1 card" style={styles} />
           <Card1

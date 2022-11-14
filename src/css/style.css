@@ -1,5 +1,5 @@
 
-  
+
 .grid-container{
     display: grid;
     gap: .9rem;
@@ -21,8 +21,8 @@
 }
 .grid-container:hover .card {
     filter: grayscale(20%);
-    
-    
+
+
 }
 .grid-container .card:hover{
     

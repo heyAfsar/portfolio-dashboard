@@ -43,7 +43,7 @@ class CardTopLogo extends Component {
     return (
       <div className={this.props.className} style={cardStyle}>
         <img src={reactLogo} style={logoStyle} alt="logo" />
-        <div style={contentStyle}>
+        <div style={contentStyle} className="card">
           <p>
             Md Afsar <br /> Hussain
           </p>

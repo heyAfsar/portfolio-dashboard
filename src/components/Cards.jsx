@@ -7,6 +7,10 @@ import styles from "../css/style.css";
 
 class Cards extends Component {
   state = {};
+
+  carPriceCalculator = () => {
+    window.location.href = "http://google.com";
+  };
   render() {
     const mainContainer = {
       display: "flex",
@@ -17,26 +21,36 @@ class Cards extends Component {
         <div style={styles} className="grid-container">
           <CardTopLogo className="grid-item1 card" style={styles} />
           <Card1
+            textContent="Text content"
             className="grid-item2 grid-row-span2 card"
             color="#fa5300"
             buttonColor="white"
             height="230px"
           />
           <Card1
+            clickCarPrice={this.carPriceCalculator}
+            textContent="Car Price Calculator"
             className="grid-item3 grid-row-span2 card"
             color="#96cbfd"
             buttonColor="secondary"
             height="230px"
           />
-          <Card1 className="grid-item4 card" color="#fa0644" height="150px" />
+          <Card1
+            textContent="Text content"
+            className="grid-item4 card"
+            color="#fa0644"
+            height="150px"
+          />
           <Card2 className="grid-item5 card" color="#fa0644" />
           <Card1
+            textContent="Text content"
             className="grid-item6 grid-row-span2 card"
             color="#ffde59"
             buttonColor="error"
             height="230px"
           />
           <Card1
+            textContent="Text content"
             className="grid-item7 grid-row-span2 card"
             color="#aa02ff"
             buttonColor="white"

@@ -19,17 +19,13 @@
 .grid-item2{
     color: rgb(255, 255, 255);
 }
-.grid-container:hover .card {
-    filter: grayscale(20%);
-    
-    
-}
+
 .grid-container .card:hover{
     
     transform: scale(1.1);
     
-    filter: grayscale(0);
-    
+    filter: brightness(100%);
+    box-shadow: 10px 10px 30px rgba(0,0,0,.5)
     
 }
 

@@ -9,7 +9,7 @@ class Cards extends Component {
   state = {};
 
   carPriceCalculator = () => {
-    window.location.href = "http://google.com";
+    window.location.href = "https://car-price-sigma.vercel.app/";
   };
   render() {
     const mainContainer = {

@@ -1,5 +1,6 @@
 import * as React from "react";
 import AddCircleOutlinedIcon from "@mui/icons-material/AddCircleOutlined";
+
 import styles from "../css/style.scss";
 
 export default function Card1(props) {
@@ -26,6 +27,8 @@ export default function Card1(props) {
     bottom: 10,
     left: 10,
     fontSize: 20,
+    display: "flex",
+    width: 120,
   };
 
   let classes = "card ";
@@ -33,9 +36,9 @@ export default function Card1(props) {
   console.log(classes);
 
   return (
-    <div style={cardStyle} className={classes}>
+    <div onClick={props.clickCarPrice} style={cardStyle} className={classes}>
       <AddCircleOutlinedIcon style={buttonStyle} color={props.buttonColor} />
-      <p style={summary}>lorem6</p>
+      <p style={summary}>{props.textContent}</p>
     </div>
   );
 }

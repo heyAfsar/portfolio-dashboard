@@ -3,7 +3,7 @@ import Card1 from "./Card1";
 import Card2 from "./Card2";
 import CardBgImg from "./CardBgImg";
 import CardTopLogo from "./CardTopLogo";
-import styles from "../css/style.css";
+import styles from "../css/style.scss";
 
 class Cards extends Component {
   state = {};

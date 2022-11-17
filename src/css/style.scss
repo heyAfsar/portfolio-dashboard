@@ -20,13 +20,14 @@
     color: rgb(255, 255, 255);
 }
 
-.grid-container .card{
+.card{
     
         filter: brightness(95%);
     &:hover{
     transform: scale(1.1);
-    filter: brightness(102%);
+    filter: brightness(105%);
     }
+
 }
 
 

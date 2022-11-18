@@ -19,18 +19,11 @@
 .grid-item2{
     color: rgb(255, 255, 255);
 }
-
-.card{
-    
-        filter: brightness(95%);
-    &:hover{
+.card:hover{
+    filter: brightness(102%);
     transform: scale(1.1);
-    filter: brightness(105%);
-    }
-
+    box-shadow: 6px 6px 40px 10px #5F4B8BFF;
 }
-
-
 .grid-item5{
     grid-column-start: 1;
     grid-row-start: 2;

@@ -19,7 +19,7 @@ class Cards extends Component {
     return (
       <div style={mainContainer}>
         <div style={styles} className="grid-container">
-          <CardTopLogo className="grid-item1 card" style={styles} />
+          <CardTopLogo className="grid-item1 " style={styles} />
           <Card1
             textContent="Text content"
             className="grid-item2 grid-row-span2 card"

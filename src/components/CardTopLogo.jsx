@@ -12,7 +12,6 @@ class CardTopLogo extends Component {
       flexDirection: "column",
       alignItems: "center",
       clear: "bottom",
-      transition: ".2s",
     };
     const contentStyle = {
       // height: 120,
@@ -30,6 +29,7 @@ class CardTopLogo extends Component {
       alignItems: "center",
       textAlign: "center",
       cursor: "pointer",
+      transition: ".2s",
     };
     const logoStyle = {
       justifyContent: "center",
@@ -39,10 +39,11 @@ class CardTopLogo extends Component {
       marginBottom: -33,
       zIndex: 3,
       cursor: "pointer",
+      transition: ".2s",
     };
     return (
       <div className={this.props.className} style={cardStyle}>
-        <img src={reactLogo} style={logoStyle} alt="logo" />
+        <img src={reactLogo} style={logoStyle} alt="logo" className="card" />
         <div style={contentStyle} className="card">
           <p>
             Md Afsar <br /> Hussain

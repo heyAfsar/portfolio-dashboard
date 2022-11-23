@@ -1,7 +1,7 @@
 import * as React from "react";
 import AddCircleOutlinedIcon from "@mui/icons-material/AddCircleOutlined";
 
-import styles from "../css/style.scss";
+import styles from "../css/style.css";
 
 export default function Card1(props) {
   const cardStyle = {

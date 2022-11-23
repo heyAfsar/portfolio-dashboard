@@ -41,7 +41,11 @@ class CardTopLogo extends Component {
       cursor: "pointer",
     };
     return (
-      <div className={this.props.className} style={cardStyle}>
+      <div
+        className={this.props.className}
+        onClick={this.props.clickProfile}
+        style={cardStyle}
+      >
         <img src={reactLogo} style={logoStyle} alt="logo" />
         <div style={contentStyle}>
           <p>

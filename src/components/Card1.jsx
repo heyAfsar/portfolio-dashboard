@@ -31,7 +31,6 @@ export default function Card1(props) {
 
   let classes = "card ";
   classes = classes.concat(props.className);
-  console.log(classes);
 
   return (
     <div onClick={props.clickCarPrice} style={cardStyle} className={classes}>
